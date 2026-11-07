@@ -24,7 +24,8 @@ Needs Python 3.10+ with numpy, matplotlib and tkinter (included in the python.or
 4. **Five sections:** one-body wire, corner path error at faces, quarters and mid-height.
 5. **Machined part:** slot swept by the discharge circles; edge error at the tip; interactive 3-D view.
 
-<img width="1626" height="834" alt="image" src="https://github.com/user-attachments/assets/0179cf80-ea1f-4666-9b52-f9bf4b446199" />
+<img width="1751" height="914" alt="image" src="https://github.com/user-attachments/assets/bc025a18-72eb-4b71-a68e-70cf0a485859" />
+
 
 
 Valid ranges and limitations are in the methodology document (Sections 7 and 11).
