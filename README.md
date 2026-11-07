@@ -1,5 +1,8 @@
 # Wire-EDM corner error modelling — final script package (v11, 1 Nov 2026)
 
+<img width="955" height="590" alt="image" src="https://github.com/user-attachments/assets/2fca3390-95b0-47cc-acf9-26717d60dcde" />
+<img width="950" height="593" alt="image" src="https://github.com/user-attachments/assets/ada745bd-43b2-4f8a-9c80-e4013f52c628" />
+
 ## Run the tool
 ```
 python simplified_corner_gui_v11.py
@@ -21,6 +24,9 @@ Needs Python 3.10+ with numpy, matplotlib and tkinter (included in the python.or
 3. **Corner path:** pursuit (default) or the discharge-circle force balance.
 4. **Five sections:** one-body wire, corner path error at faces, quarters and mid-height.
 5. **Machined part:** slot swept by the discharge circles; edge error at the tip; interactive 3-D view.
+
+<img width="1626" height="834" alt="image" src="https://github.com/user-attachments/assets/0179cf80-ea1f-4666-9b52-f9bf4b446199" />
+
 
 Valid ranges and limitations are in the methodology document (Sections 7 and 11).
 
