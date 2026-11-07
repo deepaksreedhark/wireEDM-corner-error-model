@@ -1,4 +1,4 @@
-# Wire-EDM corner error modelling — final script package (v11, 1 Nov 2026)
+# Wire-EDM corner error modelling — (v11, 1 Nov 2026)
 
 <img width="955" height="590" alt="image" src="https://github.com/user-attachments/assets/2fca3390-95b0-47cc-acf9-26717d60dcde" />
 <img width="950" height="593" alt="image" src="https://github.com/user-attachments/assets/ada745bd-43b2-4f8a-9c80-e4013f52c628" />
@@ -15,7 +15,6 @@ Needs Python 3.10+ with numpy, matplotlib and tkinter (included in the python.or
 |---|---|
 | `simplified_corner_gui_v11.py` | The tool: calculation, plots, browser view and window in one file |
 | `plotly.min.js` | Plotly.js, embedded into the browser view |
-| `Simplified_corner_model_methodology_rev6.docx` | Method, formulae, dimensioned diagrams, validation and sources (describes the v9 calculation, unchanged in v10–v11) |
 | `reproduce_paper_figures/` | Scripts that regenerate the 11 paper figures, captions and validation table |
 
 ## What the tool calculates
@@ -35,6 +34,5 @@ From `reproduce_paper_figures/`:
 ```
 python compute.py      # about 10 minutes; writes paper_data.json
 python figures.py      # writes figs/*.pdf and figs/*.png
-python make_doc.py     # writes Paper_figures_and_validation.docx and validation_summary.csv (needs python-docx)
 ```
 `data/` holds the measured literature values used for validation (collated from WEDM_model_validation_data_v2.xlsx).
