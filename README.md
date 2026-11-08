@@ -28,8 +28,6 @@ Needs Python 3.10+ with numpy, matplotlib and tkinter (included in the python.or
 
 
 
-Valid ranges and limitations are in the methodology document (Sections 7 and 11).
-
 ## Reproduce the paper figures
 From `reproduce_paper_figures/`:
 ```
